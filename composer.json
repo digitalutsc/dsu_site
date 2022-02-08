@@ -1,0 +1,31 @@
+{
+    "name": "islandora_lite/dsu_site",
+    "description": "Project template for Drupal 8 projects with composer",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Islandora Foundation",
+            "role": "Owner",
+            "email": "community@islandora.ca"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+              "name": "islandora_lite/drupal_theme_dsu",
+              "version": "dev-master",
+              "type": "drupal-theme",
+              "source": {
+                "url": "https://github.com/digitalutsc/drupal_theme_dsu.git",
+                "type": "git",
+                "reference":"master"
+              }
+            }
+        }
+    ],
+    "require": {
+        "islandora_lite/drupal_theme_dsu": "dev-master"
+    }
+}
