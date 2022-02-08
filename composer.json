@@ -14,6 +14,19 @@
         {
             "type": "package",
             "package": {
+              "name": "islandora_lite/dsu_porto",
+              "version": "dev-master",
+              "type": "drupal-theme",
+              "source": {
+                "url": "git@github.com:digitalutsc/dsu_porto.git",
+                "type": "git",
+                "reference":"master"
+              }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
               "name": "islandora_lite/drupal_theme_dsu",
               "version": "dev-master",
               "type": "drupal-theme",
@@ -23,9 +36,10 @@
                 "reference":"master"
               }
             }
-        }
+        }        
     ],
     "require": {
+        "islandora_lite/dsu_porto": "dev-master",
         "islandora_lite/drupal_theme_dsu": "dev-master"
     }
 }
